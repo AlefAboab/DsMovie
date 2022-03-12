@@ -42,7 +42,13 @@ nav a{
     font-size: 14px;
     font-weight: 400;
 }
+.dsmovie-card-des-bottom p {
+    font-size: 12px;
+    font-weight: 450;
+    color: var(--text-light-gray);
+    margin-bottom: 8px;
 
+}
 a, a:hover {
     text-decoration: none;
      color: unset;
@@ -82,6 +88,22 @@ a, a:hover {
     margin-bottom: 25px;
 }
 
+.dsmovie-card-des-bottom h4 {
+    font-size: 14px;
+    font-weight:700;
+
+}
+.dsmovie-card-des-bottom img{
+    width: 22px;
+
+}
+.dsmovie-card-des-bottom{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
 .dsmovie-btn, .dsmovie-btn:hover {
     width: 180px;
     height: 40px;
